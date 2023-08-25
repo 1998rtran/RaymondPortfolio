@@ -7,10 +7,11 @@ export default function index() {
   return (
     <div>
       <Navbar />
-      <AboutMe />
-      <Projects />
-      {/* <div className='apple'> testing </div> */}
-      <Contact />
+      <div className="mainpage">
+        <AboutMe />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   )
 }
