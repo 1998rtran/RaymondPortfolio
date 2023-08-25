@@ -1,0 +1,25 @@
+.apple {
+  background-color: red;
+}
+
+.contactscomponent {
+  text-align: center;
+}
+
+.contacts {
+  margin: 0 4px 0 4px;
+}
+
+.profilephoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.projectimage {
+  max-width: 600px;
+}
+
+.projectcard {
+  max-width: 600px;
+}
