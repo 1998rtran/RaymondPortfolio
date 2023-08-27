@@ -7,6 +7,7 @@ export default function Projects() {
     for (let i = 0; i < accordion.length; i++) {
       accordion[i].addEventListener('click', (event) => {
         event.currentTarget.classList.toggle('active');
+        event.currentTarget.scrollIntoView({behavior: 'smooth'});
       })
     }
   }, [])
