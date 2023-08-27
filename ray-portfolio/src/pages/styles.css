@@ -1,6 +1,5 @@
 .mainpage {
-  margin-top: 5%;
-  margin-left: 35%
+  margin: 5% 35%;
 }
 
 .contactscomponent {
@@ -22,5 +21,49 @@
 }
 
 .projectcard {
-  max-width: 600px;
+  max-width: 800px;
+}
+
+.projectcontent {
+  max-width: 800px;
+}
+
+.projectcontent .projectcard {
+  position: relative;
+  margin: 10px 20px;
+}
+
+.projectcontent .projectcard .projecttitle {
+  position: relative;
+  padding: 10px;
+  background: teal;
+  color: #fff;
+  cursor: pointer;
+}
+
+.projectcontent .projectcard .projecttitle::before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.projectcontent .projectcard.active .projecttitle::before {
+  content: '-';
+}
+
+.projectcontent .projectcard .projecttext {
+  position: relative;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.projectcontent .projectcard.active .projecttext {
+  height: 300px;
+  padding: 10px;
 }
