@@ -1,7 +1,9 @@
-import Navbar from '@/components/Navbar'
-import AboutMe from '@/components/AboutMe'
-import Contact from '@/components/Contact'
-import Projects from '@/components/Projects'
+import Navbar from '@/components/Navbar';
+import AboutMe from '@/components/AboutMe';
+import Contact from '@/components/Contact';
+import TechSkills from '@/components/TechSkills';
+import Projects from '@/components/Projects';
+import Technologies from '@/components/Technologies';
 
 export default function index() {
   return (
@@ -10,6 +12,8 @@ export default function index() {
       <div className="mainpage">
         <AboutMe />
         <Projects />
+        <Technologies />
+        <TechSkills />
         <Contact />
       </div>
     </div>
