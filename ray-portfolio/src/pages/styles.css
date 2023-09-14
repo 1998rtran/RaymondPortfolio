@@ -77,3 +77,19 @@
   height: 300px;
   padding: 10px;
 }
+
+.nextjsicon {
+  color: red;
+}
+
+.reactjsicon {
+  color: aqua;
+}
+
+.htmlicon {
+  color: rgb(255, 132, 0);
+}
+
+.cssicon {
+  color: rgb(0, 119, 255)
+}
