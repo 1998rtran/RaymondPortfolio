@@ -1,5 +1,6 @@
 import { TbBrandNextjs } from 'react-icons/tb'
 import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa'
+
 export default function Technologies() {
   return (
     <div>

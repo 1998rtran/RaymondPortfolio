@@ -1,15 +1,24 @@
 .mainpage {
-  margin: 5% 35%;
+  margin-top: 10%;
+  max-width: 800px;
 }
 
 .resumelink {
   width: 100px;
 }
+
 .resumebutton {
   font-size: 20px;
   border: 2px solid black;
+  border-radius: 5px;
   width: 100px;
   text-align: center;
+  background-color: aqua;
+}
+
+.resumebutton:hover {
+  background-color: darkblue;
+  color: aqua;
 }
 
 .contactscomponent {
@@ -29,6 +38,29 @@
 
 .projectimage {
   max-width: 600px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.projectlink{
+  position: absolute;
+  z-index: 4;
+  top: 295px;
+  right: 160px;
+  background-color: rgba(128, 128, 128, 0.8);
+  max-height: 40px;
+  border-radius: 0 0 5px 0;
+}
+
+.githublink {
+  font-size: 40px;
+  opacity: 1;
+  z-index: 10;
+  color: black;
+}
+
+.githublink:hover {
+  color: aqua;
 }
 
 .projectcard {
@@ -50,6 +82,7 @@
   background: teal;
   color: #fff;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .projectcontent .projectcard .projecttitle::before {
@@ -93,8 +126,4 @@
 
 .cssicon {
   color: rgb(0, 119, 255)
-}
-
-.githublink {
-  font-size: 40px;
 }
