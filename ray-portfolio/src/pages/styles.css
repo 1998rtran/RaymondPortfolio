@@ -1,10 +1,30 @@
 .mainpage {
-  margin-top: 10%;
-  max-width: 800px;
+  margin: 10% auto;
+  max-width: 30%;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.profilephoto {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.intro {
+  margin: auto;
+  text-align: center;
+  max-width: 300px;
 }
 
 .resumelink {
   width: 100px;
+  margin: auto;
 }
 
 .resumebutton {
@@ -14,6 +34,7 @@
   width: 100px;
   text-align: center;
   background-color: aqua;
+  margin: auto;
 }
 
 .resumebutton:hover {
@@ -23,6 +44,7 @@
 
 .contactscomponent {
   text-align: center;
+  margin-top: 15%;
 }
 
 .contacts {
@@ -30,14 +52,8 @@
   font-size: 40px
 }
 
-.profilephoto {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
 .projectimage {
-  max-width: 600px;
+  max-width: 100%;
   border-radius: 10px;
   position: relative;
 }
@@ -45,8 +61,8 @@
 .projectlink{
   position: absolute;
   z-index: 4;
-  top: 295px;
-  right: 160px;
+  top: 260px;
+  right: 0;
   background-color: rgba(128, 128, 128, 0.8);
   max-height: 40px;
   border-radius: 0 0 5px 0;
@@ -110,6 +126,15 @@
 .projectcontent .projectcard.active .projecttext {
   height: 300px;
   padding: 10px;
+}
+
+.technologies {
+  margin: auto;
+}
+
+.techcontainer {
+  display: flex;
+  justify-content: space-around;
 }
 
 .nextjsicon {
