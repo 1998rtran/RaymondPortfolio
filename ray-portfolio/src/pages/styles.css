@@ -44,6 +44,7 @@
 
 .contactscomponent {
   text-align: center;
+  margin-top: 15%;
 }
 
 .contacts {
@@ -52,7 +53,7 @@
 }
 
 .projectimage {
-  max-width: 600px;
+  max-width: 100%;
   border-radius: 10px;
   position: relative;
 }
@@ -60,8 +61,8 @@
 .projectlink{
   position: absolute;
   z-index: 4;
-  top: 295px;
-  right: 160px;
+  top: 260px;
+  right: 0;
   background-color: rgba(128, 128, 128, 0.8);
   max-height: 40px;
   border-radius: 0 0 5px 0;
@@ -125,6 +126,15 @@
 .projectcontent .projectcard.active .projecttext {
   height: 300px;
   padding: 10px;
+}
+
+.technologies {
+  margin: auto;
+}
+
+.techcontainer {
+  display: flex;
+  justify-content: space-around;
 }
 
 .nextjsicon {

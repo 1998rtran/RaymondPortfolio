@@ -27,7 +27,7 @@ export default function Projects() {
 
   return (
     <div>
-      <h1 className="projectheadline">Projects</h1>
+      <h2 className="projectheadline">Projects</h2>
       <div className="projectcontent">
         <div id="projectcard" className="projectcard">
           <h3 className="projecttitle">ViceRoy</h3>
