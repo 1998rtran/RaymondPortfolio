@@ -4,17 +4,27 @@
 }
 
 .aboutme {
-  display: block;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .profilephoto {
+  margin: auto;
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
+.intro {
+  margin: auto;
+  text-align: center;
+  max-width: 300px;
+}
+
 .resumelink {
   width: 100px;
+  margin: auto;
 }
 
 .resumebutton {
