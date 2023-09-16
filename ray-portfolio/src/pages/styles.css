@@ -1,6 +1,16 @@
 .mainpage {
-  margin-top: 10%;
-  max-width: 800px;
+  margin: 10% auto;
+  max-width: 30%;
+}
+
+.aboutme {
+  display: block;
+}
+
+.profilephoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 .resumelink {
@@ -14,6 +24,7 @@
   width: 100px;
   text-align: center;
   background-color: aqua;
+  margin: auto;
 }
 
 .resumebutton:hover {
@@ -28,12 +39,6 @@
 .contacts {
   margin: 0 4px 0 4px;
   font-size: 40px
-}
-
-.profilephoto {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
 }
 
 .projectimage {
