@@ -1,8 +1,9 @@
 .test {
-  background-color: aqua;
+  background-color: #CEDEBD;
   position: fixed;
   top: 0;
   z-index: 9999;
+  border-radius: 5px;
 }
 
 .test:hover {

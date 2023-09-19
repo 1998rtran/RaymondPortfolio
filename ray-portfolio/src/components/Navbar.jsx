@@ -7,7 +7,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="navbar" onClick={ScrollToTop}>
+    <div className={styles.navbar} onClick={ScrollToTop}>
       <h1 className={styles.test}>Raymond Gaijin Tran</h1>
     </div>
   )
