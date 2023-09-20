@@ -1,3 +1,11 @@
+body {
+  background-color: #FAF1E4;
+}
+
+.mainpage {
+  background-color: #FAF1E4;
+}
+
 .mainpage {
   margin: 10% auto;
   max-width: 30%;
@@ -33,13 +41,14 @@
   border-radius: 5px;
   width: 100px;
   text-align: center;
-  background-color: aqua;
+  background-color: #CEDEBD;
   margin: auto;
+  color: #435334;
 }
 
 .resumebutton:hover {
-  background-color: darkblue;
-  color: aqua;
+  background-color: #435334;
+  color: #FAF1E4;
 }
 
 .contactscomponent {
@@ -61,7 +70,7 @@
 .projectlink{
   position: absolute;
   z-index: 4;
-  top: 260px;
+  top: 82%;
   right: 0;
   background-color: rgba(128, 128, 128, 0.8);
   max-height: 40px;
@@ -95,7 +104,7 @@
 .projectcontent .projectcard .projecttitle {
   position: relative;
   padding: 10px;
-  background: teal;
+  background: #435334;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
@@ -116,7 +125,7 @@
 
 .projectcontent .projectcard .projecttext {
   position: relative;
-  background: #fff;
+  background: #CEDEBD;
   height: 0;
   overflow: hidden;
   transition: 0.5s;
