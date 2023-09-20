@@ -1,14 +1,16 @@
 body {
-  background-color: #FAF1E4;
+  background-color: #FFFADD;
+  font-family: Roboto;
+  color: #22668D;
 }
 
 .mainpage {
-  background-color: #FAF1E4;
+  background-color: #FFFADD;
 }
 
 .mainpage {
   margin: 10% auto;
-  max-width: 30%;
+  max-width: 50%;
 }
 
 .aboutme {
@@ -27,7 +29,7 @@ body {
 .intro {
   margin: auto;
   text-align: center;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .resumelink {
@@ -41,14 +43,14 @@ body {
   border-radius: 5px;
   width: 100px;
   text-align: center;
-  background-color: #CEDEBD;
+  background-color: #22668D;
   margin: auto;
-  color: #435334;
+  color: #FFCC70;
 }
 
 .resumebutton:hover {
-  background-color: #435334;
-  color: #FAF1E4;
+  background-color: #8ECDDD;
+  color: #FFFADD;
 }
 
 .contactscomponent {
@@ -104,8 +106,8 @@ body {
 .projectcontent .projectcard .projecttitle {
   position: relative;
   padding: 10px;
-  background: #435334;
-  color: #fff;
+  background: #22668D;
+  color: #FFCC70;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -125,7 +127,7 @@ body {
 
 .projectcontent .projectcard .projecttext {
   position: relative;
-  background: #CEDEBD;
+  background: #FFFADD;
   height: 0;
   overflow: hidden;
   transition: 0.5s;
