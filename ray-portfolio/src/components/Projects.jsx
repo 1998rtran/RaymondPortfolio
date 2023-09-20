@@ -10,7 +10,9 @@ export default function Projects() {
     const clickHandler = (event) => {
       const projectcard = event.currentTarget.parentElement;
       projectcard.classList.toggle('active');
-      projectcard.scrollIntoView({ behavior: 'smooth' });
+      // projectcard.scrollIntoView({ behavior: 'smooth' });
+      const scrollPosition = projectcard.offsetTop - 38;
+      window.scrollTo({ top: scrollPosition, behavior: 'smooth' });
     };
 
     for (let i = 0; i < projtitles.length; i++) {
