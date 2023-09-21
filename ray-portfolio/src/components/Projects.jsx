@@ -42,7 +42,6 @@ export default function Projects() {
             <p> - Achieved Google Lighthouse scores of 49, 100, 92, and 92 for performance, accessibility, best practices, and SEO respectively</p>
             <p> - Implemented Firebase Authentication to check registered users for accessibility</p>
             <p> - Managed and stored user login data in Firestore Database while securing and hiding user information</p>
-            {/* <a target="_blank" className="githublink" href=""><FaGithubSquare /></a> */}
           </div>
         </div>
         <div id="projectcard" className="projectcard">
@@ -57,7 +56,6 @@ export default function Projects() {
             <p> - Built and styled a fully functional web application with CRUD capabilities using React.js and raw CSS</p>
             <p> - Utilized MongoDB, Cloudinary API, and Express.js to query and store data efficiently</p>
             <p> - Configured Auth0 to implement a sign-in feature for authenticated users to give access for full web functionalities</p>
-            {/* <a target="_blank" className="githublink" href=""><FaGithubSquare /></a> */}
           </div>
         </div>
         <div id="projectcard" className="projectcard">
