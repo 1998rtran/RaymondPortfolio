@@ -1,7 +1,7 @@
 export default function TechSkills() {
 
   return (
-    <div>
+    <div className="technicalskills">
       <h2>Technical Skills</h2>
       <p><strong>Front-End</strong> | JavaScript (ES5 & ES6), React, HTML5, CSS, Next.js, Material-UI</p>
       <p><strong>Back-End</strong> | Node.js, Express, PostgreSQL, MongoDB, MySQL, RESTful API, Firebase</p>

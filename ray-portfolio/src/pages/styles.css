@@ -63,13 +63,19 @@ body {
   font-size: 40px
 }
 
+.projectimage_container {
+  max-width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
 .projectimage {
   max-width: 100%;
   border-radius: 10px;
   position: relative;
 }
 
-.projectlink{
+.projectlink {
   position: absolute;
   z-index: 4;
  bottom: 0;
