@@ -1,11 +1,16 @@
-.test {
-  background-color: #CEDEBD;
-  position: fixed;
+.navbar {
+  background-color: rgba(255, 204, 112, .4);
+  position: sticky;
   top: 0;
   z-index: 9999;
   border-radius: 5px;
+  width: 100%;
 }
 
-.test:hover {
+.header {
+  width: 21%;
+}
+
+.header:hover {
   cursor: pointer;
 }

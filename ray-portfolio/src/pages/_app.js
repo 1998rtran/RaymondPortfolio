@@ -8,6 +8,9 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Ray's Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
       <>
         <Component {...pageProps} />

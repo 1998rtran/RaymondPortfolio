@@ -10,7 +10,8 @@ export default function Projects() {
     const clickHandler = (event) => {
       const projectcard = event.currentTarget.parentElement;
       projectcard.classList.toggle('active');
-      projectcard.scrollIntoView({ behavior: 'smooth' });
+      const scrollPosition = projectcard.offsetTop - 38;
+      window.scrollTo({ top: scrollPosition, behavior: 'smooth' });
     };
 
     for (let i = 0; i < projtitles.length; i++) {
@@ -26,13 +27,15 @@ export default function Projects() {
 
 
   return (
-    <div>
+    <div className="projects">
       <h2 className="projectheadline">Projects</h2>
       <div className="projectcontent">
         <div id="projectcard" className="projectcard">
           <h3 className="projecttitle">ViceRoy</h3>
+          <div className="projectimage_container">
             <img className="projectimage" alt="ViceRoy login page" src="/ViceRoy Login.png"/>
             <div className="projectlink"><a target="_blank" className="githublink" href="https://github.com/BleachedBlueOcean/ViceRoy"><FaGithubSquare /></a></div>
+          </div>
           <div className="projecttext">
             <p>Full stack application of a mock cryptocurrency trading application that allows authorized users the ability to practice buying and selling without the risk of losing actual money; Focused on the Login/Register/Guest functionalities</p>
             <p> - Collaborated in an agile team with 6 other engineers to design and configure UX/UI on Figma</p>
@@ -44,8 +47,10 @@ export default function Projects() {
         </div>
         <div id="projectcard" className="projectcard">
           <h3 className="projecttitle">KeeBeeBuilds</h3>
-          <img className="projectimage" alt="KeeBeeBuilds display page" src="/KeeBeeBuilds.png" />
-          <div className="projectlink"><a target="_blank" className="githublink" href="https://github.com/1998rtran/MVP"><FaGithubSquare /></a></div>
+          <div className="projectimage_container">
+            <img className="projectimage" alt="KeeBeeBuilds display page" src="/KeeBeeBuilds.png" />
+            <div className="projectlink"><a target="_blank" className="githublink" href="https://github.com/1998rtran/MVP"><FaGithubSquare /></a></div>
+          </div>
           <div className="projecttext">
             <p>Full stack application that allows authorized users to share custom mechanical keyboard builds</p>
             <p> - Achieved Google Lighthouse scores of 65, 91, 100, and 90 for performance, accessibility, best practices, and SEO respectively</p>
