@@ -1,5 +1,5 @@
 import './styles.css'
-import Head from 'next/Head'
+import Head from 'next/head'
 
 // This default export is required in a new pages/_app.js file.
 export default function App({ Component, pageProps }) {
