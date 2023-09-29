@@ -1,11 +1,11 @@
 body {
-  background-color: #FFFADD;
+  background-color: #F9F7F7;
   font-family: Roboto;
-  color: #22668D;
+  color: #3F72AF;
 }
 
 .mainpage {
-  background-color: #FFFADD;
+  background-color: #F9F7F7;
 }
 
 .mainpage {
@@ -43,14 +43,14 @@ body {
   border-radius: 5px;
   width: 100px;
   text-align: center;
-  background-color: #22668D;
+  background-color: #3F72AF;
   margin: auto;
-  color: #FFCC70;
+  color: #DBE2EF;
 }
 
 .resumebutton:hover {
   background-color: #8ECDDD;
-  color: #FFFADD;
+  color: #F9F7F7;
 }
 
 .contactscomponent {
@@ -122,8 +122,8 @@ body {
 .projectcontent .projectcard .projecttitle {
   position: relative;
   padding: 10px;
-  background: #22668D;
-  color: #FFCC70;
+  background: #3F72AF;
+  color: #DBE2EF;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -143,7 +143,7 @@ body {
 
 .projectcontent .projectcard .projecttext {
   position: relative;
-  background: #FFFADD;
+  background: #F9F7F7;
   height: 0;
   overflow: hidden;
   transition: 0.5s;
